@@ -1,0 +1,7 @@
+sqlite3
+numpy
+SciPy
+matplotlib
+scikit-posthocs
+mysql
+mysql-connector-python
