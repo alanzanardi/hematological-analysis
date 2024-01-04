@@ -14,6 +14,18 @@ In my case, the dataset was made from haematological analysis performed on blood
 An example of such dataset is depicted in figure 1, left panel.<br>
 My goal was to group data at different timepoints on the basis of the parameter considered (see figure 1, right panels), in order to perform variance analysis and post hoc test on the three genotypes, using Prism GraphPad.<br>
 Given the amount of haematological parameters measured, the timepoints considered and the difference between male and female that could be significant, this process used to be time consuming (approximately two hours for analysis).<br><br>
-**Figure 1**
-![Figure 1](https://github.com/alanzanardi/statistical-tools/blob/main/Fig1.jpg)
-
+**Figure 1**<br>
+<img src="https://github.com/alanzanardi/statistical-tools/blob/main/Fig1.jpg" width="1188" height="600">
+<br>
+## Why the project was useful? :bulb:<br>
+These scripts were created to automate the data collection process from my dataset, covering all the steps I previously performed manually — from the Excel file to the Prism GraphPad analysis.<br>
+Data were collected at specific timepoints (the input inserted at the beginning) and grouped based on the hematological parameter considered (in my case, all parameters).<br>
+Following this, the algorithm conducted the Shapiro-Wilk normality test on the Gaussian distribution to determine the appropriate test type to use (parametric vs. non-parametric); then, it calculted the p-value through ANOVA or Kruskal-Wallis test, and conducted post hoc tests (Tukey’s or Dunn’s, depending on the data distribution) for multiple comparisons.<br>
+At this stage of the algorithm, a report displaying p-values and post hoc test results for each parameter is printed in the terminal (see Figure 2).<br><br>
+**Figure 2**<br>
+<img src="https://github.com/alanzanardi/statistical-tools/blob/main/Fig2.jpg" width="200" height="533">
+<br>
+In addition, a brief preview of the corresponding graphs for each considered parameter is also displayed to provide an overview of the data distribution in each situation (see figure 3).<br><br>
+**Figure 3**<br>
+<img src="https://github.com/alanzanardi/statistical-tools/blob/main/Fig3.jpeg" idth="400" height="423"><br>
+**Using these scripts, I was able to save several hours of unproductive work. :smiling_face_with_three_hearts:**
