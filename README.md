@@ -6,7 +6,7 @@ Hoping they can be useful to you as example from which collecting inspiration fo
 **\*\*\* DISCLAIMER \*\*\*** these scripts were written to help me in my laboratory data analysis work. The example I used to explain how they work show totally random values, in any case each data contained here should be trated as confidential. Thank you for the support.<br>
 <br>
 ## How it works :wrench: <br>
-Both scripts are designated to collect specific data from my dataset (namely, haematological_dataset.db). The difference is that data are stored in a local database located in the project folder (not present in the repository) in haematological_analysis_local_folder case; while in haematological_analysis_host case, data are stored on a database located on an host (in my case, the localhost).<br><br>
+Both scripts are designated to collect specific data from my dataset (namely, haematological_dataset.db). The difference is that data are stored in a local database located in the project folder (not present in the repository) in *haematological_analysis_local_folder case*; while in *haematological_analysis_host case*, data are stored on a database located on an host (in my case, the localhost).<br><br>
 ## What was my problem? :mag:<br>
 The type of dataset I needed to analyze was relatively simple.<br><br> 
 In my case, the dataset was made from haematological analysis performed on blood sample from different subjects (both male and female) at different timepoints (6, 12, 18 and 24 months). These subjects were grouped on the basis of genotype (knock-out, KO; heterozygous, HE; and wild-type, WT).<br><br> 
