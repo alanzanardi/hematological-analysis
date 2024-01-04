@@ -13,4 +13,7 @@ In my case, the dataset was made from haematological analysis performed on blood
 **The haematological parameters measured are:** red blood cell count, rcb; haemoglobin level, hgb; hematocrit, hct; mean corpuscular volume, mcv; mean corpuscular haemoglobin, mch; mean corpuscular haemoglobin concentration, mchc; red cell distribution width - standard deviation, rdw_sd; reticulocyte number, ret_num; reticulocyte percentage, ret_perc; platelet count, plt; white blood cell count, wbc; reticulocyte haemoglobin content, ret_he.<br>
 An example of such dataset is depicted in figure 1, left panel.<br>
 My goal was to group data at different timepoints on the basis of the parameter considered (see figure 1, right panels), in order to perform variance analysis and post hoc test on the three genotypes, using Prism GraphPad.<br>
-Given the amount of haematological parameters measured, the timepoints considered and the difference between male and female that could be significant, this process used to be time consuming (approximately two hours for analysis).<br>
+Given the amount of haematological parameters measured, the timepoints considered and the difference between male and female that could be significant, this process used to be time consuming (approximately two hours for analysis).<br><br>
+**Figure 1**
+![Figure 1](https://github.com/alanzanardi/statistical-tools/blob/main/Fig1.jpg)
+
