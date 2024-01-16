@@ -15,7 +15,7 @@ An example of such dataset is depicted in figure 1, left panel.<br><br>
 My goal was to group data at different timepoints on the basis of the parameter considered (see figure 1, right panels), in order to perform variance analysis and post hoc test on the three genotypes, using Prism GraphPad.<br><br> 
 Given the amount of haematological parameters measured, the timepoints considered and the difference between male and female that could be significant, this process used to be time consuming (approximately two hours for analysis).<br><br>
 **Figure 1**<br>
-<img src="https://github.com/alanzanardi/statistical-tools/blob/main/Fig1.jpg" width="1188" height="600">
+<img src="https://github.com/alanzanardi/statistical-tools/blob/main/Fig1.jpg" width="1089" height="550">
 <br>
 ## Why the project was useful? :bulb:<br>
 These scripts were created to automate the data collection process from my dataset, covering all the steps I previously performed manually — from the Excel file to the Prism GraphPad analysis.<br><br> 
