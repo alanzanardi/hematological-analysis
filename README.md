@@ -1,5 +1,5 @@
 # statistical-tools
-:warning: **WARNING:** <p style="color:blue;">This script was the first one I created over a year ago, before I began studying data analysis with Python. I now realize that the analysis could have been performed more efficiently and less clumsily using NumPy and Pandas. Nonetheless, it was my first real programming challenge, and I am very proud to have overcome it with the limited knowledge I had at that time.</p><br><br>
+:warning: **WARNING:** This script was the first one I created over a year ago, before I began studying data analysis with Python. I now realize that the analysis could have been performed more efficiently and less clumsily using NumPy and Pandas. Nonetheless, it was my first real programming challenge, and I am very proud to have overcome it with the limited knowledge I had at that time.<br><br>
 Here I have collected two scripts written in Python and SQL, designed for analyzing data related to physiological parameters derived from experimental measurements. These tools were created to expedite the statistical analysis process, extracting and sorting data from tabular-format datasets, in my specific case studies.<br>
 <br>
 Hoping they can be useful to you as example from which collecting inspiration for your specific cases.<br>
